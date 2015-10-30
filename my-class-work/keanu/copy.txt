@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+ <head> 
+   <title><h1>About Keanu Reeves</h1></title>
+   <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<img src="https://s-media-cache-ak0.pinimg.com/236x/19/a9/b4/19a9b47ba6ec99ef9a77ed620da6439b.jpg"/>
+
+<body>
+ 
+ <p>Keanu Charles Reeves is a Lebanese-born Canadian actor, producer, director and musician. Yes. You read that correctly. A musician. He works a side gig as an actor.</p>
+
+ <p>Here is a list, in no particular order, of some of his film projects:
+
+  <ul>
+    <li>Point Break</li>
+    <li>Speed</li>
+    <li>The Matrix</li>
+    <li>Bill and Ted's </li>Excellent Adventure</li>
+  </body>
+  </html>
+
+
