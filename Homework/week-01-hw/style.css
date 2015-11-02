@@ -1,4 +1,35 @@
-body {
-	background: black;
-	color: blue;
+html body {
+	background: white;
+	color: black;
+}
+
+ h1 {
+	font-family: helvetica;
+	font-size: 20px;
+}
+
+ h2 {
+	font-color: yellow;
+	font-family: helvetica;
+	font-size: 14px;
+}
+
+ul1{
+	text-decoration: underline;
+}
+
+ul2{
+	text-decoration: underline;
+}
+
+ul3{
+	text-decoration: underline;
+}
+
+ul4{
+	text-decoration: underline;
+}
+
+ul{
+	text-decoration: underline;
 }
