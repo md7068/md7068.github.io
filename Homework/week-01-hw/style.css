@@ -1,6 +1,9 @@
-html body {
+#mebody {
 	background: white;
-	color: black;
+
+}
+}
+	
 }
 
  h1 {
@@ -33,3 +36,32 @@ ul4{
 ul{
 	text-decoration: underline;
 }
+
+#list1 {
+	color: green;
+	text-decoration: underline;
+	
+}
+
+#list2 {
+	color: green;
+	text-decoration: underline;
+	
+}
+
+#mebody {
+	font-weight: bold;
+}
+
+#back {
+	text-decoration: underline;
+	font-weight: bold;
+	color: green;
+}
+
+#coolbody {
+	color: blue;
+	background-color: black;
+}
+
+
