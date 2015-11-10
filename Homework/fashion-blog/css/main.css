@@ -1,0 +1,77 @@
+h1 {
+	color: red;
+	font-family: lato;
+	font-size: 50px;
+
+}
+
+.cont{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 600px
+
+}
+
+hr{
+	margin: 50px 100px;
+	padding-left: 600px;
+}
+
+.paragraph1, .paragraph2 {
+	color: #444444;
+	font-family: lato;
+	line-height: 1.5;
+	font-size: 18px;
+
+}
+
+#content{
+	padding: 54px;
+	width: 720px;
+	border-left: 6px;
+	border-color: #dddddd;
+}
+
+.date{
+	color: #cccccc;
+}
+
+.links,li,a{
+	display: inline;
+	color: #dddddd;
+
+
+}
+
+.links,a:hover{
+	color: #aa0000;
+}
+
+.nav2,li,a{
+	display: inline;
+	color: #dd0000;
+	text-decoration: none;
+	
+	
+
+}
+
+.nav2:hover{
+	color: black;
+}
+
+
+h2{
+	color: black;
+	font-family: lato;
+	font-size: 30px;
+
+}
+
+h4{
+	color: #bbbbbb;
+	font-family: "lato";
+}
+
+
