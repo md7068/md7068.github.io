@@ -1,14 +1,33 @@
+<!-- Overall a good first ipmlementation of the concepts we went over in class!!
+
+I would take a moment to clean up this html syntax, especially removing the "p2" ahd "ul3" elements. 
+
+Once you've fixed those, take a moment to see if you can eliminate some elements.  for example, is there a reason to wrap the uls with a p?  if can apply style to th ul directly better to do that way.  as a general rule, the more consisely you can accomplish your markup without superfluous elements the better.
+
+ Would be worth it to run it through an html formatter just to have all the indentation right (or do by hand for practice). Once you've done that feel free to hit me up before or after class and we can make sure we caught everything.
+ -->
 <!DOCTYPE html>
 <html>
  <head>
   <title> Matt D's Resume </title>
    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
+  <!-- missing a > to close this body tag -->
+  <!-- don't need to give body id since there is only one body and can just call body in css -->
   <body id="coolbody"
+  <!-- cant give p elements a number like headings.  only p. -->
    <p1><h1> MATTHEW DISIENA </h1>
     <h2> dwcatech@gmail.com</h2></p1>
    <p2><h2>347-333-1333</h2></p2>
 
+   <!-- cant give ul elements a number like headings.  only ul. -->
+<!--    looks like you are closing your uls so your lis are actually after them, and not inside.
+   should be:
+
+   <ul>
+     <li></li>
+   </ul>
+ -->
    <p3><ul1>EDUCATION</ul1>
    		     <li>B.A in History with minor in Secondary Education
    		   Queens College</li></p3>
