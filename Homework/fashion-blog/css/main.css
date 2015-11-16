@@ -1,3 +1,5 @@
+/*Good job on this one!!  Spend a moment and format this css, getting rid of extra lines. Indentation is good!*/
+
 h1 {
 	color: red;
 	font-family: lato;
@@ -37,9 +39,11 @@ hr{
 	color: #cccccc;
 }
 
+/*i would put spaces after commas and before opening { bracket*/
 .links,li,a{
 	display: inline;
 	color: #dddddd;
+	/*extra spaces*/
 
 
 }
