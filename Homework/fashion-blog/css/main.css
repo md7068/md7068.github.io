@@ -7,6 +7,10 @@ h1 {
 
 }
 
+img{
+	float: right;
+}
+
 .cont{
 	font-size: 18px;
 	font-weight: bold;
@@ -76,6 +80,7 @@ h2{
 h4{
 	color: #bbbbbb;
 	font-family: "lato";
+	text-decoration: underline;
 }
 
 
