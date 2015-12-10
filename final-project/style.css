@@ -13,12 +13,12 @@
 	margin-right: 22px;
 }
 
-	.header h3 {
+.header h3 {
 		font-size: 15px;
 		margin-bottom: 15px;
 	}
 
-	.welcome {
+.welcome {
 		height: 280px;
 		width: 400px;
 		margin-right: 13px;
@@ -29,21 +29,20 @@
 		float: right;
 	}
 
-	.welcome p {
+.welcome p {
 		padding-left: 10px;
 	}
 
-	.welcome span {
-		text-decoration: underline;
+.welcome span {
 		color: red;
 	}
 
-	.image img {
+.image img {
 		padding-left: 300px;
 		
 	}
 
-	.ourselves {
+.ourselves {
 		height: 150px;
 		width: 1300px;
 		font-size: 15px;
@@ -54,12 +53,12 @@
 		background-color: yellow;
 	}
 	
-	.ourselves p {
+.ourselves p {
 		padding-left: 10px;
 		text-align: center;
 	}
 
-	.ourselves span {
+.ourselves span {
 		font-style: italic;
 		font-size: 10px;
 	}

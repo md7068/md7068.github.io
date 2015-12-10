@@ -1,15 +1,40 @@
+$(document).ready(function() {
 
-//F = (C x 2) + 30
-//when text is typed in first box it is immediately converted in second ox
-$('.button').click(function () {
-	var c = $('.celsius'), f = $('fahrenheit');
+	$('#clickCelsius').click( function (){
+		var fInput = $('#f-input').val()
+			fInput = parseFloat(fInput)
+			//everyline of action put a space
 
-	if (c.value != '') {
-		f.value = Math.round(c.value * 9/5 +32);
-		c.value = '';
-	} else {
-		c.value = Math.round((f.value - 32) * 5/9);
-		f.value = '';
-	}
+		var output = parseInt((fInput-32) * 5/9)			
+
+		$('#celsiusOutput').html(output)
+		
+		if (output <= 0) {
+			$('body').css('background-color','blue')
+		} else if (output <= 30) {
+			$('body').css('background-color','magenta')
+		} else {
+			$('body').css('background-color','red')
+		}
+	})
+
+	$('#clickFahrenheit').click( function (){
+		var cInput = $('#c-Input').val()
+			cInput = parseFloat(cInput)
+
+		var output2 = parseInt((cInput+32) * 5/9)
+
+		$('#fahrenheitOutput').html(output2)
+
+		if (output2 <= 0) {
+			$('body').css('background-color','blue')
+		} else if (output2 <= 30) {
+			$('body').css('background-color','magenta')
+		} else {
+			$('body').css('background-color','red')
+		}
+	})
+
+
+
 })
-
