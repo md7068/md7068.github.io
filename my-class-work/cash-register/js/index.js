@@ -16,16 +16,25 @@ $(document).ready(function () {
 	var total = 0
 	$('#entry').submit(function (e){
 		event.preventDefault();
-		var table = ('<tr>'+'<td>'+'</td>'+'<td>'+'</td>'+'</tr>') 
+		var table = ('<tr><td></td><td>'+ newEntry + '<td></tr>') 
 		var newEntry = $('#newEntry').val()
-			newEntry = parseFloat(total)
-			total = total + num
-	$('#total').html(total)
+			newEntry = parseFloat(newEntry)
+			total += newEntry
+	$('#total').text(total)
 	$('#entries').append(table)
+	
+	totalStr + "$" + total.toFixed(2)
+	
+	$('#total'),text(totalStr)
+
+	$('#newEntry').val('')
+
 	})
 
+	
+
 	$('#entry').click(function (){
-		$('#ticket').css('background-color','blue')
+	$('#ticket').css('background-color','blue')
 
 	})
 
