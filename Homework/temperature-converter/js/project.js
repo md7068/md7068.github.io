@@ -3,8 +3,6 @@ $(document).ready(function() {
 	$('#clickCelsius').click( function (){
 		var fInput = $('#f-input').val()
 			fInput = parseFloat(fInput)
-			//everyline of action put a space
-
 		var output = parseInt((fInput-32) * 5/9)			
 
 		$('#celsiusOutput').html(output)
