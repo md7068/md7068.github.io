@@ -1,0 +1,26 @@
+body {
+	font-family: "source Sans Pro";
+	
+	}
+h1 {
+	color: yellow;
+	font-family: "Merriweather", serif;
+	font-size: 30px
+	}
+
+.tagline {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+	background: rgb(c6c6c6);
+	}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+	}
+
+h3 {
+	font-family: "Merriweather", serif;
+}
+
+
