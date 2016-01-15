@@ -3,81 +3,166 @@
 	<head>
 		<title>What Cheese Are You?</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- 	<a href=><img src="http://thecatapi.com/api/images/get?format=src&type=gif"></a> -->
 	</head>
 	<body>
 	 <div class="container">
 		<div class="header">
-		 <h1>What Cheese Are you?</h1>
+		 <button id="cheese">
+		 <span class="what-cheese">What Cheese Are you?</span>
+		 <div class="hole" id="hole1"></div>
+		 <div class="hole" id="hole2">
+		 </div><div class="hole" id="hole3"></div>
+		 <div class="hole" id="hole4"></div>
+		 <div class="hole" id="hole5"></div>
+		 </button>
 		</div>
-		<button id="cheese">Cheese Yourself</button>
-	<div class="questions">
-	 	<div id="q1">
-	 		<p>1. What is your name?</p>
-	 		<p><textarea id="text1">Type here</textarea></p>
-	 		<button id="b1">Submit</button>
-	 	</div>
+		<div class="questions">
+			<div id="q1" class="question">
+				<p>1. What is your name?</p>
+				<p><textarea id="text1"></textarea></p>
+				<button id="b1">Submit</button>
+			</div>
 
-	 	<div id="q2">
-	 		<p>2. Where were you born?</p>
-	 		<p><textarea id="text2">Type here!</textarea></p>
-	 		<button id="b2">Submit</button>
-	 	</div>	
-	 	<div id="q3">
-	 		<p>3. Who let the dogs out? Who?  WHO!?  TELL ME WHO!</p>
-	 		<p><textarea id="text3">Type here! Now!</textarea></p>
-	 		<button id="b3">Submit</button>
-	 	</div>
-	 	<div id="q4">
-	 		<p>4. About how long are your arms in inches?</p>
-	 		<p><textarea id="text4">Type your cheesetastic answer here.</textarea></p>
-	 		<button id="b4">Submit</button>
-	 	</div>
-	 	
-	 	<div id="q5">
-	 		<p>5. What is your biggest fear?</p>
-	 		<p><textarea id="text5">I love cheese</textarea></p>
-	 		<button id="b5">Submit</button>
-	 	</div>
-	 	<div id="q6">
-	 		<p>6. A dog a cat a mouse and a weasel all say hello to you at the same time...  Who do you respond to first? Choose wisey.</p>
-	 		<p><textarea id="text6">Delicious Cheese.  Delightful</textarea></p>
-	 		<button id="b6">Submit</button>
-	 	</div>
-	 	<div id="q7">
-	 		<p>7. How do you feel about the name Terry?  Boy or girl's name?  Both?</p>
-	 		<p><textarea id="text7">Your answers are like sweet cheesey rain falling on my cheeks.</textarea></p>
-	 		<button id="b7">Submit</button>
-	 	</div>
-	 	<div id="q8">
-	 		<p>8. I once had a roommate named Gary. Good or bad thing? Explain.</p>
-	 		<p><textarea id="text8">Wonderful, You are almost finished.</textarea>
-	 		</p>
-	 		<button id="b8">Submit</button>
-	 	</div>
-	 	<div id="q9">
-	 	<p>9. Would you describe yourself as a Word document, a Powerpoint Presentation, or an Excel Spreadsheet?</p>
-	 		<p><textarea id="text9">Chee-eese
-	 		</textarea></p>
-	 		<button id="b9">Submit</button>
-	 	</div>
-	 	<div id="q10">
-	 		<p>10. You are sharing a row of seats on a plane with Phil Collins.  He asks for the window seat.  Do you give it to him?
-	 		</p>
-	 		<p><textarea id="text10">Your cheesey fate awaits you</textarea></p>
-	 		<button id="b10">Submit</button>
-	 	</div>
-	 	<div id="fancy">
-	 		<p><img src="images/fancy-feast.jpg"></p>
-	 		<p>You are a fresh can of Fancy Feast!</p>
-	 	</div>
-	 	<div id="swiss">
-	 		<p><img src="images/fancy-feast.jpg"></p>
-	 		<p>Swiss</p>
-	 	</div>
+			<div id="q2" class="question">
+				<p>2. Where were you born?</p>
+				<p><textarea id="text2"></textarea></p>
+				<button id="b2">Submit</button>
+			</div>	
+			<div id="q3" class="question">
+				<p>3. What are your top three personality traits?</p>
+				<p><textarea id="text3"></textarea></p>
+				<button id="b3">Submit</button>
+			</div>
+			<div id="q4" class="question">
+				<p>4. What is your favorite food?</p>
+				<p><textarea id="text4"></textarea></p>
+				<button id="b4">Submit</button>
+			</div>
 
-	 </div>
+			<div id="q5"class="question">
+				<p>5. You are a dinosaur. Predator, Herbavore, Omnivore, Dilophosaurus? Go.</p>
+				<p><textarea id="text5"></textarea></p>
+				<button id="b5">Submit</button>
+			</div>
+			<div id="q6" class="question">
+				<p>6. What is your fondest childhood memory?</p>
+				<p><textarea id="text6"></textarea></p>
+				<button id="b6">Submit</button>
+			</div>
+			<div id="q7" class="question">
+				<p>7. How do you feel about the name Terry?  Boy or girl's name?  Both?</p>
+				<p><textarea id="text7"></textarea></p>
+				<button id="b7">Submit</button>
+			</div>
+			<div id="q8" class="question">
+				<p>8. I once had a roommate named Gary. Good or bad thing? Explain.</p>
+				<p><textarea id="text8"></textarea>
+				</p>
+				<button id="b8">Submit</button>
+			</div>
+			<div id="q9" class="question">
+				<p>9. Would you describe yourself as a Word document, a Powerpoint Presentation, or an Excel Spreadsheet?</p>
+				<p><textarea id="text9">
+				</textarea></p>
+				<button id="b9">Submit</button>
+			</div>
+			<div id="q10" class="question">
+				<p>10. You are sharing a row of seats on a plane with Phil Collins.  He says hi...  You say?
+				</p>
+				<p><textarea id="text10"></textarea></p>
+				<button id="b10">Submit</button>
+			</div>
+			<div id="fancy" class="result">
+				<h3>Fancy Feast</h3>
+				<p><img src="images/fancy-feast.jpg"></p>
+				<p>You are a fresh can of Fancy Feast! Your feasts are so fancy! Your friends would be proud to say that they are proud to say that your feasts are in fact the fanciest feasts in the whole world. This also makes people not like you for your high end taste and primadonna tendencies. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="block" class="result">
+				<h3>Yellow Cheese</h3>
+				<p><img src="images/cheese.jpg"></p>
+				<p>You are a block of yellow cheese. I think. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="rooster" class="result">
+				<h3>Rooster</h3>
+				<p><img src="images/rooster.jpg"></p>
+				<p>You are a rooster. You are strong and bold. You puff out your chest and you prance around the farm like you own the place.  Your pride will be your downfall. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="tumnus" class="result">
+				<h3>Mr.Tumnus</h3>
+				<p><img src="images/tumnus.gif"></p>
+				<p>It appears that you are Mr.Tumnus. You are spritely fawn from the land of Narnia. You have a talent for music. You can play the reed flute. But your cowardice leads you to kidnap an earth child for the White Witch, but you chicken out and end up in tears on your living room floor. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="snippets" class="result">
+				<h3>Rich Snippets</h3>
+				<p><img src="images/snippets.jpg"></p>
+				<p>It appears that you are snappy, scrappy, business man Rich Snippets. You made it big including structured data markup in web content to help Google algorithms better index and understand the content. Your ingenuity will get you far, but unfortunately you are judgmental. And that is bad. Get a hold of your life Rich Snippets. Start accepting people for who they are. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="platter" class="result">
+				<h3>Cheese Platter</h3>
+				<p><img src="images/Cheese-and-Crackers-Platter.jpg"></p>
+				<p>It appears your personality type is an arranged plate of cheeses. You have a personality that ranges from mild to strong. Your emotional states contrast in flavors and take different shapes and colors. This makes you unpredictable and scarey to people who don't like to try new things, and children. Your at your best with bread and crackers. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="swiss" class="result">
+				<h3>The Swiss</h3>
+				<p><img src="images/swiss.jpeg"></p>
+				<p>Your survey results infer that you are Swiss cheese!  Your personality traits suggest that you are known for being shiny and pale yellow. You seem to have a firmer texture than your cousin, the baby Swiss.  Your conversations tend to leave a savory, mild, sweet nut-like taste, and you have holes known as eyes.  People often feel uncomfortable around you because of this.  You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="gharial" class="result">
+				<h3>The Gharial</h3>
+				<p><img src="images/gharial.jpg"></p>
+				<p>The results of our survey seem to indicate that you are the Gharial.You may also be called the gavial.  You seem to be a fish-eating crocodile, native to the northern part of the Indian Subcontinent.  Your serrated teeth are perfect for catching fish, but horrible for smiling in pictures. You ruin people&#39s pictures. This makes you not liked.  You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="cheddar" class="result">
+				<h3>The Cheddar</h3>
+				<p><img src="images/cheddar.jpg"></p>
+				<p>Congratulations you are Cheddar Cheese! Your personality suggests that you are the most widely purchased and eaten personality type in the world! You have a natural personality, but you slightly crumble under pressure. Although, in the right situations you can be quite smooth.  Especially in your younger days. The more you mature, the sharper you get. You tend to wear yellow and orange clothes, which is just too bright for most people.  Maybe it&#39s time to look at a few Macy&#39s catalogues and broaden your wardrobe horizon.  You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="bridges" class="result">
+				<h3>Jeff Bridges</h3>
+				<p><img src="images/Jeff_bridges.jpg"></p>
+				<p>Our survey indicates that your cheese type is Jeff Bridges. We love your beard in this picture, and your eyes always leave us wondering just what you are thinking. We really loved your performance in the remake of 'True Grit'. You were a gunslinging cowboy in that movie, and while you were a reliable shot, you had a bad temper, and this can be very off-putting for people that don't know the reliable trusting person that you really are.  Our suggestion, open up a little bit more, and maybe people will want to socialize with you.  You should still be ashamed of yourself. </p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="mozz" class="result">
+				<h3>Mozzarella</h3>
+				<p><img src="images/mozz.jpg"></p>
+				<p>You are Mozzarella cheese! You appear to have a slieceable curd personality. You are a traditional cheese, tracing your heritage back to Italy and Bulgaria.  Because of your traditional ways, change scares you. This fear of change keeps you from trying new things. And because you don't try new things you make your friends eat Applebees every weekend. You should be ashamed of yourself. </p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="floats" class="result">
+				<h3>Floats</h3>
+				<p><img src="images/float1.jpg"></p>
+				<p>Congratulations, you are a float! Your are the type of person who likes to wrap text around images. You also, I don't know, you float around, you need to be cleared... You get cleared, then you go back to where you were supposed to be, and then my website looks good...  I dunno. You should be ashamed of yourself.</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="Matt" class="result">
+				<h3>Matthew DiSiena</h3>
+				<p><img src="images/Matthew-DiSiena.jpg"></p>
+				<p>Congratulations, you are Matthew DiSiena. Apparantly you are the type of person who wears green shirts, folds his hands in front of him and smiles for pictures. You also have a pretty wicked comb-over. Your downfall is that people may think you are too funny and too handsome. You should be ashamed of yourself.
+				</p>
+				<button class="restart">Try Again?</button>
+			</div>
+			<div id="c" class="result">
+				<h3>Chandler Moisen</h3>
+				<p><img src="images/chandler.jpg"></p>
+				<p>Congratulations, you are Chandler Moisen. Apparantly you are the type of person that likes to do the code with the computers and you make the web make pictures and the javascript and the floats and the jquery and the images and you make push the github and the css and the html and the floats. You should be ashamed of yourself.
+				</p>
+				<button class="restart">Try Again?</button>
+			</div>
+		</div>
 		
-
 		<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 		<script src="js/project.js"></script>
     </div>
